@@ -5,7 +5,8 @@
     <p>
         <a href="https://www.facebook.com/HELLOGIT_UoG-Information-Technology-Club-102617695289423"><img src="https://img.shields.io/badge/Facebook-Join%20now-orange?style=flat&logo=facebook"  alt="Facebook"></a>
         <a href="https://discord.gg/syT7WzcFYP"><img src="https://img.shields.io/badge/Discord-Join%20now-yellow?style=flat&logo=discord" alt="Discord"></a>
+        <a href="#"><img src="https://img.shields.io/badge/Release-May%2015th%2C%202021-blue?style=flat"></a>
     </p>
-    
-
 </div>
+
+## Table of content
