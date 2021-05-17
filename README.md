@@ -134,6 +134,10 @@ Cuối cùng, đôi khi một số dự án đang được chạy song song liê
 <a href="https://github.com/" style="color: red">GitHub</a> là một dịch vụ nổi tiếng cung cấp kho lưu trữ mã nguồn <a href="https://git-scm.com/" style="color:red">Git</a> cho các dự án phần mềm. <strong>Github có đầy đủ những tính năng của Git</strong>, ngoài ra nó còn bổ sung những tính năng về social để các developer tương tác với nhau.
 </p>
 
+<p align="right">
+<a href="#content" ><img src="https://img.shields.io/badge/Back%20to%20top-Click%20me-orange?style=flat-square" ></a>
+</p>
+
 <h2 id="b" style="margin-top: 45px">Tính năng của Github</h2>
 <p><strong>GitHub</strong> được coi là một mạng xã hội dành cho lập trình viên lớn nhất và dễ dùng nhất với các tính năng cốt lõi như:
 
@@ -144,6 +148,10 @@ Cuối cùng, đôi khi một số dự án đang được chạy song song liê
 </ol>
 
 Có 2 cách tiếp cận GitHub: Tạo project của riêng mình Contribute cho project có sẵn: fork project có sẵn của người khác, sửa đổi, sau đó đề nghị họ cập nhật sửa đổi của mình (tạo pull request).
+</p>
+
+<p align="right">
+<a href="#content" ><img src="https://img.shields.io/badge/Back%20to%20top-Click%20me-orange?style=flat-square" ></a>
 </p>
 
 <h2 id="c" style="margin-top: 45px">Lợi ích chính của Github đối với lập trình viên</h2>
