@@ -3,7 +3,7 @@
     <h2>Vai trò của Git và Github đối với một developer.<br>Hướng dẫn cách sử dụng Git và Github.
     </h2>
     <p>
-        <a href="https://www.facebook.com/HELLOGIT_UoG-Information-Technology-Club-102617695289423"><img src="https://img.shields.io/badge/Facebook-Join%20now-orange?style=flat&logo=facebook"  alt="Facebook"></a>
+        <a href="https://www.facebook.com/HELLOGIT_UoG-Information-Technology-Club-102617695289423"><img src="https://img.shields.io/badge/Facebook-Join%20now-orange?style=flat&logo=facebook" alt="Facebook"></a>
         <a href="#"><img src="https://img.shields.io/badge/Copyright-Hello%20GIT-green?style=flat" alt="Discord"></a>
         <a href="#"><img src="https://img.shields.io/badge/Release-May%2015th%2C%202021-blue?style=flat"></a>
     </p>
@@ -14,34 +14,66 @@
 <li><a href="#1">Git là gì?</a>
 <li><a href="#2">Version Control System – VCS là gì?</a>
 <li><a href="#3">Git có lợi ích gì?</a>
-<detail open>
-<summary><li><a href="#4">Các thuật ngữ Git quan trọng</a></summary>
-<li><a href="#5">fds</a>
-<li><a href="#6"></a>
-<li><a href="#7"></a>
-<li><a href="#8"></a>
-<li><a href="#9"></a>
-<li><a href="#10"></a>
-<li><a href="#11"></a>
-<li><a href="#12"></a>
-</detail>
-<li><a href="#5">Các lệnh git cơ bản</a>
-<li><a href="#6">Lời khuyên khi thao tác thường xuyên với Git trong công việc</a>
-<li><a href="#3">Reference</a>
-<li><a href="#3">Copyright</a>
-<li><a href="#3"></a>
-<li><a href="#3"></a>
-<li><a href="#3"></a>
-<li><a href="#3"></a>
-<li><a href="#3"></a>
-<li><a href="#3"></a>
-<li><a href="#3"></a>
-<li><a href="#3"></a>
-<li><a href="#3"></a>
-<li><a href="#3"></a>
-<li><a href="#3"></a>
-<li><a href="#3"></a>
-<li><a href="#3"></a>
+</ul>
+<details open>
+<summary><a href="#4">Các thuật ngữ Git quan trọng</a></summary>
+<ul>
+<li><a href="#5">1. Branch</a>
+<li><a href="#6">2. Commit</a>
+<li><a href="#7">3. Checkout</a>
+<li><a href="#8">4. Fetch</a>
+<li><a href="#9">5. Fork</a>
+<li><a href="#10">6. Head</a>
+<li><a href="#11">7. Index</a>
+<li><a href="#12">8. Master</a>
+<li><a href="#13">9. Merge</a>
+<li><a href="#14">10. Origin</a>
+<li><a href="#15">11. Pull</a>
+<li><a href="#16">12. Push</a>
+<li><a href="#17">13. Rebase</a>
+<li><a href="#18">14. Remote</a>
+<li><a href="#19">15. Repository</a>
+<li><a href="#20">16. Stash</a>
+<li><a href="#21">17. Tags</a>
+<li><a href="#22">18. Upstream</a>
+</ul>
+
+</details>
+<details open>
+<summary><a href="#23">Các lệnh git cơ bản</a></summary>
+<ul>
+<li><a href="#24">a. git config</a>
+<li><a href="#25">b. git init</a>
+<li><a href="#26">c. git clone</a>
+<li><a href="#27">d. git status</a>
+<li><a href="#28">e. git add</a>
+<li><a href="#29">f. git remote</a>
+<li><a href="#30">g. git commit</a>
+<li><a href="#31">h. git push/git pull</a>
+<li><a href="#32">i. git branch</a>
+<li><a href="#33">k. git checkout</a>
+<li><a href="#34">m. git stash</a>
+<li><a href="#35">n. git merge</a>
+<li><a href="#36">o. git reset</a>
+<li><a href="#37">Note</a>
+</ul>
+
+</details>
+<details open>
+<summary><a href="#38">Lời khuyên khi thao tác thường xuyên với Git trong công việc</a></summary> 
+<ul>
+<li><a href="#39">1. Git Cheet Sheets</a>
+<li><a href="#40">2. Nên commit thương xuyên</a>
+<li><a href="#41">3. Test rồi mới commit</a>
+<li><a href="#42">4. Viết ghi chú khi commit</a>
+<li><a href="#43">5. Thử nghiệm Branch khác</a>
+<li><a href="#44">6. Theo một Git Workflow</a>
+</ul>
+</details>
+
+<ul>
+<li><a href="#45">Reference</a>
+<li><a href="#46">Copyright</a>
 </ul> 
 
 <h2 id="1">Git là gì?</h2>
