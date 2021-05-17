@@ -14,8 +14,19 @@
 <li><a href="#1">Git là gì?</a>
 <li><a href="#2">Version Control System – VCS là gì?</a>
 <li><a href="#3">Git có lợi ích gì?</a>
+<li><a href="#a">Github là gì?</a>
+<li><a href="#b">Tính năng của Github</a>
 </ul>
-<details open>
+
+<details>
+<summary><a href="#c">Lợi ích chính của Github đối với lập trình viên</a></summary>
+<ul>
+<li><a href="#d">1. Quản lý source code dễ dàng</a>
+<li><a href="#c">2. Tracking sự thay đổi qua các version</a>
+<li><a href="#e">3. Markdown</a>
+</details>
+
+<details>
 <summary><a href="#4">Các thuật ngữ Git quan trọng</a></summary>
 <ul>
 <li><a href="#5">1. Branch</a>
@@ -39,7 +50,7 @@
 </ul>
 
 </details>
-<details open>
+<details>
 <summary><a href="#23">Các lệnh git cơ bản</a></summary>
 <ul>
 <li><a href="#24">a. git config</a>
@@ -59,7 +70,7 @@
 </ul>
 
 </details>
-<details open>
+<details>
 <summary><a href="#38">Lời khuyên khi thao tác thường xuyên với Git trong công việc</a></summary> 
 <ul>
 <li><a href="#39">1. Git Cheet Sheets</a>
@@ -113,6 +124,49 @@ Cuối cùng, đôi khi một số dự án đang được chạy song song liê
 <li>Deployment sản phẩm của bạn một cách không thể nào dễ dàng hơn.
 </ul>
 </p>
+
+<p align="right">
+<a href="#content" ><img src="https://img.shields.io/badge/Back%20to%20top-Click%20me-orange?style=flat-square" ></a>
+</p>
+
+<h2 id="a" style="margin-top: 45px">Github là gì?</h2>
+<p> 
+<a href="https://github.com/" style="color: red">GitHub</a> là một dịch vụ nổi tiếng cung cấp kho lưu trữ mã nguồn <a href="https://git-scm.com/" style="color:red">Git</a> cho các dự án phần mềm. <strong>Github có đầy đủ những tính năng của Git</strong>, ngoài ra nó còn bổ sung những tính năng về social để các developer tương tác với nhau.
+</p>
+
+<h2 id="b" style="margin-top: 45px">Tính năng của Github</h2>
+<p><strong>GitHub</strong> được coi là một mạng xã hội dành cho lập trình viên lớn nhất và dễ dùng nhất với các tính năng cốt lõi như:
+
+<ol>
+<li>Wiki, issue, thống kê, đổi tên project, project được đặt vào namespace là user.
+<li>Watch project: theo dõi hoạt động của project của người khác. Xem quá trình người ta phát triển phầm mềm thế nào, project phát triển ra sao.
+<li>Follow user: theo dõi hoạt động của người khác.<br>
+</ol>
+
+Có 2 cách tiếp cận GitHub: Tạo project của riêng mình Contribute cho project có sẵn: fork project có sẵn của người khác, sửa đổi, sau đó đề nghị họ cập nhật sửa đổi của mình (tạo pull request).
+</p>
+
+<h2 id="c" style="margin-top: 45px">Lợi ích chính của Github đối với lập trình viên</h2>
+<h3 id="d" style="margin-top: 40px">1. Quản lý source code dễ dàng</h3>
+<p>
+Khi bạn tạo một repo, toàn bộ source code của repo đó được lưu trên GitHub. Tại đây, bạn có thể coi lại quá trình mình đã làm việc thông qua các comment sau mỗi lần commit. Và cái hay ở đây, là nhiều người có thể cùng làm một repo.
+
+Lợi ích đầu tiên, chính là bạn biết được ai đã commit và commit cái gì. Tiếp theo, source của bạn có thể phát triển theo nhiều nhánh. Nguyên tắc làm việc với các nhánh như thế này: Bạn có thể rẽ nhiều nhánh để phát triển project. Nhưng cuối cùng, bạn phải merge lại vào nhánh MASTER để ra được project hoàn chỉnh.
+</p>
+
+<h3 id="e" style="margin-top: 40px">2. Tracking sự thay đổi qua các version</h3>
+<p>
+Khi có nhiều member cùng thực hiện một dự án thì khá là phức tạp để theo dõi revisons – ai thay đổi cái gì, lúc nào và mấy cái files đó được stored ở đâu. Đừng lo vì GitHub đã tính đến chuyện này giúp bạn, bằng cách luôn lưu lại những thay đổi bạn đã push lên repository. Cũng tương tự với Microsoft Word hay Google Drive, bạn có một lịch sử phiên bản để phòng trường hợp các phiên bản trước đó bị mất hay không được lưu.
+</p>
+
+<h3 id="f" style="margin-top: 40px">3. Markdown</h3>
+<p>
+Markdown là một cách định dạng text trên web. Bạn có thể chỉnh sửa cách hiển thị của document, format từ như định dạng in đậm hay in nghiêng, thêm hình và tạo list những thứ bạn có thể làm với Markdown. <br>
+Hầu hết, Markdown chỉ là đoạn text đơn thuần với những ký tự đặc biệt chèn vào, như # hay *. Trong GitHub thì bạn có thể sử dụng Mardown ở những nơi: Git, Comments tại Issues và Pull Requests, các file có đuôi .md hay .markdown extension.
+</p>
+<div align="center">
+<img src="./img/repo-browser.png">
+</div>
 
 <p align="right">
 <a href="#content" ><img src="https://img.shields.io/badge/Back%20to%20top-Click%20me-orange?style=flat-square" ></a>
